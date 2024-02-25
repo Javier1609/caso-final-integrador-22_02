@@ -1,11 +1,9 @@
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Alerta {
     public String notificarEvento(int i, String radiación) {
-        // Lógica para determinar si el valor está por fuera de los límites aceptables
         if (i > 100) {
             return "Alerta: Valor de " + radiación + " extremadamente alto. Se requiere ajuste.";
         } else if (i < 0) {

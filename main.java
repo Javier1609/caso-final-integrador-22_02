@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Main {
+public class main {
 
     public static void main(String[] args) {
         // Crear una instancia de CalculadoraTiempo
